@@ -1,0 +1,19 @@
+{
+  "sourceWorkbook": "BCTC (1).xlsx",
+  "sourceRows": {
+    "ledger": 1293,
+    "accounts": 43,
+    "categories": 23,
+    "savings": 21,
+    "gold": 41,
+    "cash": 13
+  },
+  "computedFromLedger": {
+    "assetsVND": 1580255786,
+    "liabilitiesSignedVND": -54472948,
+    "netWorthVND": 1525782838,
+    "reportableIncomeVND": 2082526423,
+    "reportableExpenseVND": 752928184
+  },
+  "method": "Assets/liabilities: sum signed ledger amounts joined to account code prefix 1/2. Income/expense: sum cached/calculated SỔ CÁI THÀNH TIỀN (signed_amount) joined to category code prefix 1/2; this mirrors column H, including rows where report flag is blank. Values are whole-history checks."
+}
